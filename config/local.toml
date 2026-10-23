@@ -1,0 +1,14 @@
+[workload]
+name = "ghostdock-demo"
+image = "ghostdock-demo:local"
+container_port = 8080
+host_port = 8080
+health_path = "/healthz"
+expected_body = '"service": "ghostdock-demo"'
+
+[recovery]
+failure_threshold = 3
+poll_seconds = 2
+startup_seconds = 30
+cloud_timeout_seconds = 600
+ttl_minutes = 30

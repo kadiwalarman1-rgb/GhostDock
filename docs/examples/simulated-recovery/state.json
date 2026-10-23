@@ -1,0 +1,15 @@
+{
+  "cloud_requested": true,
+  "config_sha256": "b27a2c7dcda2e5f7d4dd1a36ffe2348569d5201154bcbf4aecd8b48057671c95",
+  "consecutive_failures": 3,
+  "incident_id": "086bfb14-541a-415e-972d-3cb2d7155858",
+  "instance_id": "simulated-ec2",
+  "last_event_hash": "3dfb670e0ef922cd3547ac91a9b7c526d092235868c53bddc5f64883c91f363d",
+  "recovery_seconds": 21.0,
+  "region": "ap-south-1",
+  "schema_version": 1,
+  "simulation": true,
+  "status": "RECOVERED_CLOUD",
+  "traffic_switched": false,
+  "workload": "ghostdock-demo"
+}

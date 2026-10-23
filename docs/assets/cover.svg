@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<title id="title">GhostDock</title><desc id="desc">Evidence-driven cold recovery for containers. Detect, recover, verify.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d2b"/><stop offset="1" stop-color="#070d16"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#26384a" stroke-opacity=".3"/></pattern></defs>
+<rect width="1280" height="420" rx="24" fill="url(#bg)"/><rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+<path d="M0 1H1280" stroke="#6ce3c3" stroke-width="3"/>
+<g font-family="Arial,Helvetica,sans-serif"><text x="68" y="78" fill="#70e2c1" font-size="13" letter-spacing="4">PYTHON / LINUX / DOCKER / AWS</text>
+<text x="64" y="174" fill="#f0f5fa" font-size="80" font-weight="700" letter-spacing="-3">GhostDock</text>
+<text x="68" y="224" fill="#b5c5d9" font-size="25">Recovery, with evidence.</text>
+<text x="68" y="269" fill="#8498af" font-size="17">A failed health check starts an incident. A verified app closes it.</text>
+<rect x="68" y="314" width="438" height="45" rx="9" fill="#142c30" stroke="#325c60"/>
+<text x="91" y="342" fill="#8cebd1" font-size="14" letter-spacing="1">DETECT  /  RECOVER  /  VERIFY  /  RECORD</text>
+<g transform="translate(936 90)"><rect x="0" y="0" width="224" height="224" rx="28" fill="#111f2d" stroke="#31505f"/>
+<path d="M64 154V85a48 48 0 0196 0v69l-16-12-16 12-16-12-16 12-16-12z" fill="#172f37" stroke="#70e2c1" stroke-width="3"/>
+<circle cx="96" cy="92" r="6" fill="#d1fff3"/><circle cx="129" cy="92" r="6" fill="#d1fff3"/>
+<path d="M93 115h40" stroke="#70e2c1" stroke-width="3" stroke-linecap="round"/>
+<circle cx="199" cy="23" r="17" fill="#70e2c1"/><path d="M192 23l5 5 10-11" stroke="#0d2424" stroke-width="3" fill="none"/>
+<text x="112" y="195" fill="#99b1c6" text-anchor="middle" font-size="10" letter-spacing="2">COLD RECOVERY ENGINE</text></g></g></svg>

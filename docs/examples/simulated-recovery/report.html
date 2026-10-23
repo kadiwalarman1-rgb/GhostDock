@@ -1,0 +1,23 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; base-uri 'none'; form-action 'none'">
+<title>GhostDock · Recovery receipt</title><style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#0b1018;color:#e7edf5}
+body{max-width:1050px;margin:0 auto;padding:48px 24px}header{border-bottom:1px solid #2b3646;padding-bottom:30px}
+.eyebrow{color:#70e2c1;letter-spacing:.13em;font-size:12px;font-weight:700}h1{font-size:48px;margin:12px 0}
+p{color:#a9b9cd;line-height:1.7}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:28px 0}
+.card{background:#121c29;border:1px solid #29384a;border-radius:12px;padding:22px;overflow-wrap:anywhere}
+.value{font-size:22px;font-weight:700;color:#f6f9fc}.label{font-size:12px;letter-spacing:.06em;color:#a9b9cd;margin-top:8px}
+.notice{border-left:3px solid #70e2c1;padding:12px 20px;background:#112222;margin:26px 0}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{padding:14px 12px;border-bottom:1px solid #29384a;text-align:left;vertical-align:top}
+th{color:#8ca0b8}td:first-child{white-space:nowrap;color:#70e2c1}code{overflow-wrap:anywhere;font-size:12px;color:#b6c9df}
+footer{margin-top:32px;font-size:13px;color:#8ca0b8}@media(max-width:680px){.cards{grid-template-columns:1fr}h1{font-size:36px}td,th{padding:12px 6px;font-size:12px}}
+</style></head><body><header><div class="eyebrow">GHOSTDOCK / RECOVERY RECEIPT</div>
+<h1>Recovery, with evidence.</h1><p>SIMULATION · VIRTUAL TIME · NO AWS RESOURCES</p><code>Incident 086bfb14-541a-415e-972d-3cb2d7155858</code></header>
+<div class="cards"><div class="card"><div class="value">RECOVERED_CLOUD</div><div class="label">FINAL STATE</div></div>
+<div class="card"><div class="value">21.00s</div><div class="label">FIRST FAILED PROBE → VERIFIED RECOVERY</div></div>
+<div class="card"><div class="value">Not switched</div><div class="label">USER TRAFFIC</div></div></div>
+<div class="notice">The event chain and state snapshot are consistent. This is an integrity check, not a digital signature or independent proof of AWS execution. Simulation timings are not performance benchmarks.</div>
+<h2>Incident timeline</h2><table><thead><tr><th>Elapsed</th><th>State</th><th>Observation</th></tr></thead><tbody><tr><td>0.00s</td><td>CREATED</td><td>incident receipt initialized</td></tr><tr><td>0.00s</td><td>WATCHING</td><td>watching an already verified local application</td></tr><tr><td>1.00s</td><td>SUSPECT</td><td>SIMULATION: application health probe failed</td></tr><tr><td>2.00s</td><td>SUSPECT</td><td>SIMULATION: application health probe failed</td></tr><tr><td>3.00s</td><td>SUSPECT</td><td>SIMULATION: application health probe failed</td></tr><tr><td>3.00s</td><td>REPAIRING_LOCAL</td><td>trying one bounded local restart</td></tr><tr><td>5.00s</td><td>CLOUD_PREFLIGHT</td><td>checking cloud prerequisites</td></tr><tr><td>5.00s</td><td>PROVISIONING</td><td>SIMULATION: no AWS API call</td></tr><tr><td>17.00s</td><td>VERIFYING_CLOUD</td><td>SIMULATION: virtual instance allocated</td></tr><tr><td>22.00s</td><td>RECOVERED_CLOUD</td><td>application verified through SSM; traffic switching is out of scope</td></tr></tbody></table>
+<footer>Workload: ghostdock-demo · Instance: simulated-ec2<br>Receipt head: <code>3dfb670e0ef922cd3547ac91a9b7c526d092235868c53bddc5f64883c91f363d</code><br>
+GhostDock 0.1.0 · Stateless application recovery prototype. No zero-downtime guarantee.</footer></body></html>
